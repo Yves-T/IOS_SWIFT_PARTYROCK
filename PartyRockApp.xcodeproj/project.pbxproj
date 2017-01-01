@@ -16,6 +16,7 @@
 		A30937471E17FB8600273546 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30937461E17FB8600273546 /* still time.ttf */; };
 		A30937491E17FCFC00273546 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30937481E17FCFC00273546 /* VideoVC.swift */; };
 		A309374B1E1801C800273546 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309374A1E1801C800273546 /* PartyCell.swift */; };
+		A34869181E18F0B900A6B0C5 /* PartyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34869171E18F0B900A6B0C5 /* PartyImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A30937461E17FB8600273546 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 		A30937481E17FCFC00273546 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 		A309374A1E1801C800273546 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		A34869171E18F0B900A6B0C5 /* PartyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A309374A1E1801C800273546 /* PartyCell.swift */,
+				A34869171E18F0B900A6B0C5 /* PartyImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34869181E18F0B900A6B0C5 /* PartyImage.swift in Sources */,
 				A30937491E17FCFC00273546 /* VideoVC.swift in Sources */,
 				A30937341E17F57000273546 /* MainVC.swift in Sources */,
 				A309374B1E1801C800273546 /* PartyCell.swift in Sources */,
@@ -340,6 +344,7 @@
 				A30937421E17F57000273546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
